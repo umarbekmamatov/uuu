@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+width: 1148px;
+margin: 0 auto;
+}
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+body{
+background: #0B0B22;
+
+}
+.header h1{
+color: #fff;
+font-size: 24px;
+font-weight: 700;
+}
+.header-nav a{
+color: rgba(255, 255, 255, 0.8);
+font-size: 16px;
+font-weight: 400;
+margin: 0 30px;
+}
+.header button{
+padding: 10px 30px;
+border-radius: 3px;
+background: var(--button-light, rgba(255, 255, 255, 0.1));
+box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1);
+color: #fff;
+font-size: 14px;
+font-weight: 500;
+border: none;
+cursor: pointer;
+}
+#header{
+padding: 30px 0;
+
+}
+h4{
+text-transform: uppercase;
+font-family: sans-serif;
+font-size: small;
+color: aquamarine;
+display: flex;
+justify-content: center;
+margin-top: 200px ;
+}
+.text2 h2{
+color: #fff;
+text-transform: capitalize;
+font-family: sans-serif;
+font-size: x-large;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.text3 h2{
+color:#fff ;
+text-transform: capitalize;
+font-family: sans-serif;
+font-size: x-large;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+.text4{
+color: gray;
+font-family: sans-serif;
+font-size: small;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.text5{
+color: gray;
+font-family: sans-serif;
+font-size: small;
+display: flex;
+justify-content: center;
+margin-top: 5px;
+}
+.text6{
+    color: gray;
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.button1 button{
+padding: 10px 20px;
+font-size: 14px;
+font-weight: 500;
+background: mediumslateblue;
+color: #fff;
+border-radius: 3px;
+border: none;
+box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1);;
+cursor: pointer;
+}
+.button2 button{
+padding: 10px 21px;
+border-radius: 3px;
+background: var(--button-light, rgba(255, 255, 255, 0.1));
+box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1);
+color: #fff;
+font-size: 14px;
+font-weight: 500;
+border: none;
+margin-right: 400px;
+
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
